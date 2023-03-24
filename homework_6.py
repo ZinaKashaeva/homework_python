@@ -10,19 +10,19 @@ class Animal:
         pass
 
 class Animal_cat(Animal):
-    def tom(self):
+    def voice(self):
         print("help meee")
 
 class Animal_dog(Animal):
-    def bob(self):
+    def voice(self):
         print("no help")
 class Animal_horse(Animal):
-    def ben(self):
+    def voice(self):
         print("roleksy")
 
 cat=Animal_cat()
-cat.tom()
+cat.voice()
 dog=Animal_dog()
-dog.bob()
+dog.voice()
 horse=Animal_horse()
-horse.ben()
+horse.voice()
